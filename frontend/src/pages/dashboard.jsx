@@ -11,9 +11,8 @@ function Dashboard() {
   const [dashboard, setDashboard] = useState(null);
 
   useEffect(() => {
-    axios
-      .get("https://smartindustrymanagement.onrender.com/api/dashboard")
-      .then((res) => {
+    axios.get("https://smartindustrymanagement.onrender.com/api/dashboard")
+ .then((res) => {
   console.log("Dashboard API:", res.data);
   setDashboard(res.data.data);
 })
