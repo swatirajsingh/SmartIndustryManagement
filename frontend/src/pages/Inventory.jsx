@@ -4,7 +4,7 @@ import Sidebar from "../components/Sidebar";
 import axios from "axios";
 
 function Inventory() {
-  const API = "https://smartindustrymanagement.onrender.com/api/inventory";
+const API = "https://smartindustrymanagement.onrender.com/api/inventory";
 
   const [products, setProducts] = useState([]);
 
@@ -141,13 +141,11 @@ function Inventory() {
 
                   <td className="p-3">
                     <div className="flex gap-2">
-  <button
-    onClick={() => editInventory(product)}
-    className="bg-yellow-500 text-white px-3 py-1 rounded"
-  >
-    Edit
-  </button>
-
+<button
+  className="bg-gray-400 text-white px-3 py-1 rounded"
+>
+  Edit
+</button>
   <button
     onClick={() => deleteInventory(product._id)}
     className="bg-red-600 text-white px-3 py-1 rounded"
