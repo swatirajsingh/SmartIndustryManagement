@@ -7,7 +7,7 @@ function AIChat() {
   const askAI = async () => {
   if (!question.trim()) return;
 
-  const res = await fetch("http://localhost:5000/api/ai", {
+  const res = await fetch("https://smartindustrymanagement.onrender.com/api/ai", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

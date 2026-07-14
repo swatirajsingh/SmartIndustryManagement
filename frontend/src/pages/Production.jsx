@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 const [editId, setEditId] = useState(null);
 function Production() {
-  const API = "http://localhost:5000/api/production";
+  const API = "https://smartindustrymanagement.onrender.com/api/production";
 
   const [production, setProduction] = useState([]);
 

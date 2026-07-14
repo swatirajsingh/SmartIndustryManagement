@@ -4,7 +4,7 @@ import axios from "axios";
 import Sidebar from "../components/Sidebar";
 
 function Employees() {
-  const API = "http://localhost:5000/api/employees";
+  const API = "https://smartindustrymanagement.onrender.com/api/employees";
 
   const [employees, setEmployees] = useState([]);
 

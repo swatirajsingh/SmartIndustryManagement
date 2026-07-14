@@ -20,7 +20,7 @@ function InventoryForm({ fetchInventory }) {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:5000/api/inventory", formData);
+      await axios.post("https://smartindustrymanagement.onrender.com/api/inventory", formData);
 
       setFormData({
         name: "",

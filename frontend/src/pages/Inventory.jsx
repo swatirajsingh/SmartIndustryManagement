@@ -4,7 +4,7 @@ import Sidebar from "../components/Sidebar";
 import axios from "axios";
 
 function Inventory() {
-  const API = "http://localhost:5000/api/inventory";
+  const API = "https://smartindustrymanagement.onrender.com/api/inventory";
 
   const [products, setProducts] = useState([]);
 

@@ -12,7 +12,7 @@ function Dashboard() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/dashboard")
+      .get("https://smartindustrymanagement.onrender.com/api/dashboard")
       .then((res) => {
   console.log("Dashboard API:", res.data);
   setDashboard(res.data.data);

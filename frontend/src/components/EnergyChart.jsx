@@ -19,7 +19,7 @@ function EnergyChart() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/dashboard")
+      .get("https://smartindustrymanagement.onrender.com/api/dashboard")
       .then((res) => {
 
         const energyData = res.data.data.energy.map(

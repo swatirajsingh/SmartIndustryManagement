@@ -3,7 +3,7 @@ import axios from "axios";
 import Sidebar from "../components/Sidebar";
 
 function Orders() {
-  const API = "http://localhost:5000/api/orders";
+  const API = "https://smartindustrymanagement.onrender.com/api/orders";
 
   const [orders, setOrders] = useState([]);
   const [editId, setEditId] = useState(null);
